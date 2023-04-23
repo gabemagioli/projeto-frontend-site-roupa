@@ -94,6 +94,7 @@ nav option {
 
 main {
   background-color: whitesmoke;
+  background: linear-gradient(whitesmoke, rgb(132, 117, 117),rgb(132, 117, 117), whitesmoke);
 }
 
 .mainsection {
@@ -156,7 +157,9 @@ main {
 }
 
 .novs {
-  margin: 0 40px;
+  
+  margin: 0 ;
+  
 }
 
 .newstitle {
@@ -278,6 +281,6 @@ footer {
   position: relative;
   padding-top: 15px;
   left: 555px;
-  font-size: 15px;
-  color: aliceblue;
+  font-size:15px;
+  color:aliceblue;
 }
