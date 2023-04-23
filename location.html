@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>HYPEZ</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="location.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1 class="nomesite">HYPEZ</h1>
+      <form>
+        <input
+          type="search"
+          placeholder="Search..."
+          class="header-search"
+          id="searchpart"
+        />
+        <input type="submit" value="ENTER" class="search-submission" />
+      </form>
+      <nav>
+        <select onchange="window.location.href=this.value" class="select">
+          <option class="opt" value="index.html">OPTIONS</option>
+          <option class="opt" value="index.html">HOME</option>
+          <option class="opt" value="products.html">PRODUCTS</option>
+          <option class="opt" value="location.html">LOCATION</option>
+        </select>
+      </nav>
+
+      <button class="sign"><a href="signin.html">SIGN-IN</a></button>
+      <button class="sign"><a href="signup.html">SIGN-UP</a></button>
+    </header>
+
+    <main>
+      <section class="loc">
+        <h1 class="tituloloc">Sobre nossa Localidade</h1>
+        <p class="sobreloc">
+          visando sempre o melhor acesso para nossos clientes, alem de possuir
+          uma loja online, possuimos uma loja fisica para que nossos clientes
+          possam visitar e ver os produtos com nossa garantia de qualidade. Para
+          checar o local, basta olhar o seguinte mapa:
+        </p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7345.959407488573!2d-43.226580157944845!3d-22.987773816792338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd44d0dad62cd%3A0x92e2039036f49443!2sPraia%20do%20Leblon!5e0!3m2!1spt-BR!2sbr!4v1682040702500!5m2!1spt-BR!2sbr"
+          width="90%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="mapstore"
+        ></iframe>
+      </section>
+    </main>
+
+    <footer>
+      <h1 class="footerlogo">HYPEZ</h1>
+      <p class="copyright">&copy; projeto HYPEZ Gabriel Magioli.</p>
+      <p class="copyright2">SITE MERAMENTE ILUSTRATIVO SEM FINS lUCRATIVOS</p>
+    </footer>
+  </body>
+</html>

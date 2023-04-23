@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>login site</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="signin.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 class="nomesite">HYPEZ</h1>
+      <form>
+        <input
+          type="search"
+          placeholder="Search..."
+          class="header-search"
+          id="searchpart"
+        />
+        <input type="submit" value="ENTER" class="search-submission" />
+      </form>
+      <nav>
+        <select onchange="window.location.href=this.value" class="select">
+          <option value="index.html">OPTIONS</option>
+          <option value="index.html">HOME</option>
+          <option value="products.html">PRODUCTS</option>
+          <option value="location.html">LOCATION</option>
+        </select>
+      </nav>
+
+      <button class="sign"><a href="signin.html">SIGN-IN</a></button>
+      <button class="sign"><a href="signup.html">SIGN-UP</a></button>
+    </header>
+
+    <main>
+      <form class="formulario">
+        <label for="nome" class="labelnome">Nome de usuario:</label>
+        <input type="text" id="nome" placeholder="user" required />
+        <label for="senha" class="labelsenha">Senha:</label>
+        <input type="password" id="senha" placeholder="password" required />
+        <label for="manterlog" class="loged"
+          >Deseja se manter logado no site?</label
+        >
+        <input type="checkbox" id="manterlog" class="loged" checked />
+        <input type="submit" value="Login" class="loginbutton" />
+      </form>
+    </main>
+  </body>
+</html>

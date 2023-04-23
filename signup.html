@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>signup site</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="signup.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 class="nomesite">HYPEZ</h1>
+      <form>
+        <input
+          type="search"
+          placeholder="Search..."
+          class="header-search"
+          id="searchpart"
+        />
+        <input type="submit" value="ENTER" class="search-submission" />
+      </form>
+      <nav>
+        <select onchange="window.location.href=this.value" class="select">
+          <option value="index.html">OPTIONS</option>
+          <option value="index.html">HOME</option>
+          <option value="products.html">PRODUCTS</option>
+          <option value="location.html">LOCATION</option>
+        </select>
+      </nav>
+
+      <button class="sign"><a href="signin.html">SIGN-IN</a></button>
+      <button class="sign"><a href="signup.html">SIGN-UP</a></button>
+    </header>
+    <main>
+      <form class="formulariosignup">
+        <label for="nome" class="label">Nome:</label>
+        <input
+          type="text"
+          placeholder="nome"
+          id="nome"
+          class="input"
+          required
+        />
+        <label for="email" class="label">Email:</label>
+        <input
+          type="email"
+          placeholder="xxx@gmail.com"
+          id="email"
+          class="input"
+          required
+        />
+        <label for="telefone" class="label">Telefone:</label>
+        <input
+          type="tel"
+          placeholder="(xx)xxxxx-xxxx"
+          id="telefone"
+          class="input"
+          required
+        />
+        <label for="data" class="label">Data de nascimento:</label>
+        <input type="date" id="data" class="input" />
+        <label for="check" class="label">Gostaria de receber novidades?</label>
+        <input type="checkbox" id="check" class="input" checked />
+        <input type="submit" value="Finalizar" class="botaofinalizar" />
+      </form>
+    </main>
+  </body>
+</html>
