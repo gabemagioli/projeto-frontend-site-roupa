@@ -147,7 +147,7 @@ main {
   margin-left: 50px;
   background-color: rgb(125, 125, 253);
   color: whitesmoke;
-  font-weight: bold;
+  font-weight:bold;
   border-radius: 20px;
 }
 
@@ -156,3 +156,4 @@ form .botaofinalizar:hover {
   transition: 1s background;
   transform: scale(1.05);
 }
+
