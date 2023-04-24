@@ -91,12 +91,12 @@ header {
     color: black;
     background-color: rgb(255, 202, 138);
   }
+
   main{
     padding-top:110px;
     padding-left:15px;
     background:linear-gradient( rgb(126, 57, 126),rgb(134, 24, 24));
     height:940px;
-    
   }
 
   .listprod{
@@ -125,7 +125,7 @@ header {
     justify-content: center;
     color:rgb(237, 219, 219);
   }
-
+  
   .divsprod{
     display: flex;
     flex-direction: row;
@@ -172,5 +172,4 @@ header {
    font-size:20px;
    font-family: 'Bruno Ace SC', cursive;
    font-weight: bold;
-   
   }
