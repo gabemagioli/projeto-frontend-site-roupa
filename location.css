@@ -93,7 +93,7 @@ nav option {
 }
 
 main {
-  background-color: whitesmoke;
+  background: linear-gradient(white, grey, black);
 }
 
 .loc {

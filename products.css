@@ -94,7 +94,7 @@ header {
   main{
     padding-top:110px;
     padding-left:15px;
-    background:linear-gradient( rgb(126, 57, 126),rgb(134, 24, 24));
+    background:linear-gradient( rgb(126, 57, 126),rgb(134, 24, 24), black);
     height:940px;
     
   }
@@ -174,3 +174,43 @@ header {
    font-weight: bold;
    
   }
+
+  
+footer {
+  background-color: black;
+  padding: 100px 0;
+  margin: auto;
+}
+
+.footerlogo {
+  font-family: "Sedgwick Ave Display", cursive;
+  position: relative;
+  left: 43%;
+  font-size: 70px;
+  text-align: center;
+  color: aliceblue;
+  text-align: center;
+  display: inline;
+}
+
+.copyright {
+  color: aliceblue;
+  position: relative;
+  padding-top: 5px;
+  left: 675px;
+  font-size: 10px;
+  color: aliceblue;
+}
+
+.copyright2 {
+  color: aliceblue;
+  position: relative;
+  padding-top: 15px;
+  left: 555px;
+  font-size:15px;
+  color:aliceblue;
+}
+
+
+
+
